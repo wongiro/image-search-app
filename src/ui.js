@@ -11,7 +11,7 @@ class UI {
        output += `
      <div class="image-results">
        <div class="card mt-2" style="width: 50rem;">
-        <img class="card-img-top" src="${img.urls.regular}" alt="${img.description}">
+        <img class="card-img-top" src="${img.urls.regular}" alt="${img.description}" style="width: 150px;" style="height: 150px;">
        <div class="card-body">
         <h6 class="card-title">
          Photo by: <a href="${img.user.links.html}?utm_source=image-search-app&utm_medium=referral" target="_blank">${img.user.name}</a>
